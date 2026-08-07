@@ -2,22 +2,24 @@
   "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
   "name": "brainpod-skills",
   "owner": {
-    "name": "BrainPod"
+    "name": "BrainPod",
+    "url": "https://brainpod.io"
   },
   "metadata": {
-    "description": "Skills for working with BrainPod.",
-    "version": "1.0.0"
+    "description": "Build it in Claude Code. Ship it in seconds. Agent skills for working with BrainPod.",
+    "version": "1.3.0"
   },
   "plugins": [
     {
-      "name": "brainpod-deploy",
-      "source": "./plugins/brainpod-deploy",
-      "description": "Deploy and verify applications on BrainPod with the brainpod CLI.",
-      "version": "1.0.0",
+      "name": "brainpod",
+      "source": "./",
+      "description": "Build it in Claude Code. Ship it in seconds. Deploy, operate, and debug applications on BrainPod with the brainpod CLI.",
+      "version": "1.3.0",
       "category": "deployment",
       "tags": [
         "brainpod",
         "deployment",
+        "paas",
         "docker"
       ]
     }
